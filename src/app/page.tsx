@@ -6,9 +6,9 @@ export const metadata = {
 export default function HomePage() {
   return (
     <main className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-green-100 to-green-200 px-4">
-      {/* Hero Section */}
+    
       <section className="max-w-4xl w-full flex flex-col md:flex-row items-center gap-8">
-        {/* Text Content */}
+
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
             Hi, I’m Vince
@@ -47,7 +47,7 @@ export default function HomePage() {
 
         </div>
 
-        {/* Hero Image */}
+      
         <div className="flex-1 flex justify-center md:justify-end">
           <div className="w-48 h-48 md:w-100 md:h-100 rounded-full overflow-hidden shadow-xl border-4 border-green-600">
             <img
